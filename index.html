@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DataBase </title>
+    <link href="./styles.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="p-3 text-white bg-black  m-7 ">
+    <div class=" border border-black rounded-2xl bg-gray-700 p-3">
+      <h1 class="text-[40px] font-bold text-center">Data</h1>
+      <div class="py-2">
+        <p>Data is raw unprocessed facts</p>
+        <p>
+          <strong>Eg: </strong>Colledtion of marks on differetn students
+        </p>
+        <div>
+          <strong>Unprocessed: </strong> Data
+        </div>
+        <h4>
+          <strong>processed</strong> Information
+        </h4>
+      </div>
+      <h1 class="border   rounded-3xl text-[25px] inline-block p-3 hover:bg-gray-500 duration-300">Traditional file based system</h1>
+      <p class="py-2"> * Collection of application programme that perfroms services for end users </p>
+      <h3 class="border  rounded-3xl   text-[25px] inline-block p-3 hover:bg-gray-500 duration-300">limitations</h3>
+      <ul class="py-2">
+        <li>&#8594 Seperation & isolation of data</li>
+        <li>&#8594 Dublication of data</li>
+        <li>&#8594 Data dependence(structure defines in the code)</li>
+        <li>&#8594 incompatible file format</li>
+        <li>&#8594 Fixed queries(new requirements means new programmes)</li>
+      </ul>
+      <h2 class="border   rounded-3xl text-[25px] inline-block p-3 hover:bg-gray-500 duration-300">Database</h2>
+      <p class="py-2"> Its a shared collection of logically related data description of this data and designed to meet the information needs of an ORG. </p>
+      <h2 class="border   rounded-3xl text-[25px] inline-block p-3 hover:bg-gray-500 duration-300">Database Management System</h2>
+      <p class="py-2"> sodtware that allows users to define create and control access to the database </p>
+      <h3 class="border  rounded-3xl text-[25px] inline-block p-3 hover:bg-gray-500 duration-300">Database parts</h3>
+      <ul class="py-2">
+        <li>&#8594 hardware and software are parts of the machine </lo>
+        <li>&#8594 Data is the bridge between machine and human</li>
+        <li>&#8594 people and procedures are part of the human</li>
+      </ul>
+      <div class="pb-4">
+        <div class="border text-center ">
+          <h2 class="font-semibold"> *why not store in the operating system?*</h2>
+          <p>There not enough memory in the system</p>
+        </div>
+      </div>
+      <h2 class="border  rounded-3xl text-[25px] inline-block p-3 hover:bg-gray-500 duration-300">Why Use DBMS</h2>
+      <ul class="py-2">
+        <li>&#8594 Data independence</li>
+        <li>&#8594 Efficient access</li>
+        <li>&#8594 Reduced application dev time</li>
+        <li>&#8594 Data integhrity and secutrity</li>
+        <li>&#8594 Unifrom data administrstion</li>
+        <li>&#8594 Concurrent access</li>
+        <li>&#8594 Recovery from crashes</li>
+      </ul>
+      <h2 class="border  rounded-3xl text-[25px] inline-block p-3 hover:bg-gray-500 duration-300">Terminologies</h2>
+      <div class="py-2">
+        <h2>
+          <strong>Data Models</strong>
+        </h2>
+        <p>How to store the Data:</p>
+        <div class="flex flex-row py-2">
+          <h3>
+            <strong>Entity&#8594</strong>its the name of the table
+          </h3>
+        </div>
+        <div class="flex flex-row py-2">
+          <p>
+            <strong>Attributes&#8594</strong>Characteristics of entity
+          </p>
+        </div>
+        <div class="flex flex-row py-2">
+          <p>
+            <strong>Records&#8594</strong>Fields
+          </p>
+        </div>
+        <div class="flex flex-col">
+          <p>
+            <strong>Relationships:-</strong>
+          </p>
+          <p>&#8594 One to one</p>
+          <p>&#8594 One to many</p>
+          <p>&#8594 Many to many</p>
+          <p>* How contents relate to each other *</p>
+        </div>
+        <div class="flex flex-row py-2">
+          <p>
+            <strong>Meta Data:-</strong>provied info about a certain items contact
+          </p>
+        </div>
+        <div class="flex flex-row py-2">
+          <p>
+            <strong>Schem(Schematics):-</strong>Structure of a database defined by data definition language
+          </p>
+        </div>
+        <div class="flex flex-row py-2">
+          <p>
+            <strong>Instances:-</strong>contents of a database
+          </p>
+        </div>
+        <div class="flex flex-row py-2">
+          <p>
+            <strong>View:-</strong>Subsets of database, allows each user to his own view of the database
+          </p>
+        </div>
+        <div class="flex flex-row py-2">
+          <p>
+            <strong>Data definition Language:-</strong>Allows user to communicat with the databse to define the fields
+          </p>
+        </div>
+        <div class="flex flex-row py-2">
+          <p>
+            <strong>Data maniipulation Language:-</strong>Allows basic data manipulation within the database
+          </p>
+        </div>
+        <div class="week 222222222222222222222222222222222">
+          <h1 class="text-[25px]"> Week 2 </h1>
+          <h2 class="border  rounded-3xl   text-[25px] inline-block p-3 hover:bg-gray-500 duration-300">Relational Data Models</h2>
+          <p>Repersents data in the form of tables. THis consists of 3 components</p>
+          <ul>
+            <li>&#8594 Data structure: orgnise in the form of tables</li>
+            <li>&#8594 Data manipulation: Powerful operations used to manipulate data</li>
+            <li>&#8594 Data integrity: Used to specify business rules to specify to maintain integrity during manipulation</li>
+          </ul>
+          <h2 class="font-bold text-green-400">Objectives of relational Data Model:</h2>
+          <p>&#8594 High degree of data independence</p>
+          <p>&#8594 Provide substantial grounds for dealing with data sematics, consistency and reduncy problems</p>
+          <p>&#8594 Enable the expansion of set-oriented data manupilation languages</p>
+          <p>&#8594 If there is on instance, it's a populated table</p>
+          <p>&#8594 <strong>Connection between math concept relation and this:-</strong></p>
+          <p>&#8594 * Use of set theory & predicate logic principles to define & momupilate dates in relational database</p>
+          <p>&#8594 * This provides powerful and expressive framerwork for representing query, and managinng data in a structural and systematic manner</p>
+          <p class="font-bold text-green-400">  Properties:</p>
+          <p>&#8594 Distinct Name</p>
+          <p>&#8594 Each cell of the relation contains 1 value</p>
+          <p>&#8594 Values of an attri, are all from some domain</p>
+          <p>&#8594 Order of attribute has no significance</p>
+          <p class="font-bold text-green-400">Key</p>
+          <p>&#8594 Super: Attribute, that uniquely identifies a tuple within a relation</p>
+          <p>&#8594 Candidate: min, set of attributes that uniquely identifies each tuple of a relation</p>
+          <p>&#8594 Alternate: not seleced to be primary</p>
+          <p>&#8594 Primary: selected to identify tuples uniquely with the relation. Usually underlined in the schema</p>
+          <p>&#8594 Composite: consists with one or more</p>
+          <p>&#8594 Foreign: Attribute, within one relation that matches the candidate key to another</p>
+          <p class="font-bold text-green-400">integrity constraint</p>
+          <p>&#8594 Ensure data is accurate, facilitate maintaining the accuracy and integrity in the database</p>
+          <p class="font-bold text-green-400">Types</p>
+          <p>&#8594 Domain constraints</p>
+          <p>&#8594 Entity integrity</p>
+          <p>&#8594 referential integrity</p>
+          <p><strong>Domain constraint:</strong> set of values assigned to an attribute</p>
+          <p>&#8594 Consists of domain name, Meaning, Data type, Size, and allowable values or range</p>
+          <p><strong>Entity integrity:</strong> Ensure that every relation has a primary key, all values are valid. No primary key can be null </p>
+          <p><strong>Referential integrity:</strong> requires that a Foreign key must have a matching primary key or null. </p>
+          <p>&#8594 reference from a row in one table to another table must be valid</p>
+          <p>&#8594 <Strong>orphan record:</Strong>  foreign key value is not found in the corresponding entity</p>
+          <p><strong>General constraint:</strong> additional rules specified by user</p>
+          <p class="font-bold text-green-400">Purpose of views</p>
+          <p>&#8594 Powerful and flexible security mechanism by hiding</p>
+          <p>&#8594 Permits users to access data customised to that user</p>
+          <p>&#8594 Simplify complex operation</p>
+          <p><strong>Reductant data:</strong> When some piece of data exists in multiple places</p>
+          <p><strong>degree</strong> No. of entities that have taken part in the relationship </p>
+          <p><strong>Data abstraction:</strong> Hides unnecessary background details. there are 3 levels:-</p>
+          <p>&#8594 <strong>Physical:</strong> Define how its actually stored</p>
+          <p>&#8594 <strong>Logical:</strong> Relationship which exists among stored data</p>
+          <p>&#8594 <strong>View:</strong> Provide high-level view of section of data</p>
+
+
+<a target="_blank" href="/isse.html">pooooo</a>
+
+
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
